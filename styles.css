@@ -44,6 +44,21 @@ body {
   font-style: italic;
   font-family: "Poppins";
 }
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Jarak antara gambar dan teks */
+}
+
+.navbar-logo img {
+  height: 60px; /* Atur ukuran logo sesuai kebutuhan */
+  width: auto;
+  object-fit: contain; /* Pastikan gambar tidak terdistorsi */
+  border-radius: 50%;
+}
+
+
 .navbar .navbar-logo span {
   color: var(--primary);
 }
